@@ -27,3 +27,4 @@ The easiest way to get up and going is to run against a localhost blockchain. Yo
 To run the front-end application run `parcel app/index.html` from the top-level directory.
 
 You can learn more about Parcel [here](https://parceljs.org/).
+# voting_dapp

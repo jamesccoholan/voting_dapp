@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 
 async function main() {
   const Voting = await hre.ethers.getContractFactory("Voting");
@@ -10,8 +10,8 @@ async function main() {
   console.log("Voting deployed to:", voting.address);
 
   const config = {
-    address: voting.address
-  }
+    address: voting.address,
+  };
 
   fs.writeFileSync("./app/__config.json", JSON.stringify(config, null, 2));
 }
@@ -20,7 +20,7 @@ async function main() {
 // and properly handle errors.
 main()
   .then(() => process.exit(0))
-  .catch(error => {
+  .catch((error) => {
     console.error(error);
     process.exit(1);
   });

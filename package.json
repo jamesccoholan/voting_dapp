@@ -25,7 +25,7 @@
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.2.0",
     "ethers": "^5.0.19",
-    "parcel": "^2.3.2",
+    "parcel": "^2.6.0",
     "sass": "^1.29.0"
   }
 }
